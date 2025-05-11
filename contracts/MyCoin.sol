@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 // 从 OpenZeppelin 导入 ERC20 合约
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.3/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 // MyCoin 合约，继承自 OpenZeppelin 的 ERC20 标准实现
 contract MyCoin is ERC20 {
