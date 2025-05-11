@@ -1,71 +1,33 @@
-# BSC-Dev-Journey
+# BSC 开发之旅
 
-这是一个基于 Binance Smart Chain (BSC) 的区块链开发学习项目，包含了基础的智能合约示例、部署脚本和测试用例。
+这个仓库记录了BSC（区块链智能合约）开发学习过程中的各种示例和笔记。
 
-## 项目结构
+## 项目简介
 
-```
-contracts/              # 智能合约目录
-├── SimpleStorage.sol   # 简单存储合约示例
-├── 1_Storage.sol      # 存储合约
-├── 2_Owner.sol        # 所有权合约
-└── 3_Ballot.sol       # 投票合约
+本项目旨在提供BSC开发相关的学习资源和实践示例，帮助开发者更好地理解和掌握区块链开发技术。
 
-scripts/               # 部署脚本目录
-├── deploy_with_ethers.ts   # 使用 ethers.js 的部署脚本
-├── deploy_with_web3.ts     # 使用 web3.js 的部署脚本
-├── ethers-lib.ts          # ethers.js 工具库
-└── web3-lib.ts            # web3.js 工具库
+## 目录结构
 
-tests/                # 测试目录
-├── Ballot_test.sol   # 投票合约测试
-└── storage.test.js   # 存储合约测试
+- `/contracts` - 智能合约代码
+- `/scripts` - 部署和测试脚本
+- `/test` - 测试用例
+- `/docs` - 文档资料
+
+## 开始使用
+
+1. 克隆仓库
+```bash
+git clone [仓库地址]
 ```
 
-## 开发环境要求
-
-- Node.js
-- Truffle 或 Hardhat
-- Web3.js 或 Ethers.js
-
-## 智能合约说明
-
-1. **SimpleStorage.sol**: 简单的存储合约示例
-2. **Storage.sol**: 基础存储功能实现
-3. **Owner.sol**: 合约所有权管理示例
-4. **Ballot.sol**: 去中心化投票系统示例
-
-## 如何使用
-
-### 安装依赖
+2. 安装依赖
 ```bash
 npm install
 ```
 
-### 部署合约
-使用 ethers.js:
-```bash
-npx ts-node scripts/deploy_with_ethers.ts
-```
-
-使用 web3.js:
-```bash
-npx ts-node scripts/deploy_with_web3.ts
-```
-
-### 运行测试
-```bash
-npm test
-```
-
-## 配置文件
-
-项目包含以下配置文件：
-- `.prettierrc.json`: 代码格式化配置
-
 ## 贡献指南
 
-欢迎提交 Pull Request 或创建 Issue 来帮助改进项目。
+欢迎提交 Issue 和 Pull Request 来帮助改进项目。
 
 ## 许可证
 
